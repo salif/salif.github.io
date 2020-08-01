@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://salifm.com
   * I am salifm_ (https://keybase.io/salifm_) on keybase.
-  * I have a public key ASB_LlNbRmg16kSvwCNSyA26Q4sExsaZGlK-ushe_NuVYAo
+  * I have a public key ASCdBiVm1oQ7O5oBLncCRbU9i1Bc8aMkDeFz_EbDZcY-igo
 
 To do so, I am signing this object:
 
@@ -15,18 +15,18 @@ To do so, I am signing this object:
     "key": {
       "eldest_kid": "01203ade269a311ad0e4f1d6c7b7ea039098da063c3eb0dab58f9273cf5f0771fc5a0a",
       "host": "keybase.io",
-      "kid": "01207f2e535b466835ea44afc02352c80dba438b04c6c6991a52bebac85efcdb95600a",
+      "kid": "01209d062566d6843b3b9a012e770245b53d8b505cf1a3240de173fc46c365c63e8a0a",
       "uid": "2255a1157cf68a554cc314618b7c3819",
       "username": "salifm_"
     },
     "merkle_root": {
-      "ctime": 1588437656,
-      "hash": "177e8f78cab60c64022fb1c9b1b2edeac1e1c2f1ae04ca0c5aaf5d2bb30a0a98b843a34c8a46c841f6c14e40c5b64276f3266b1bea4b980d47fe86e7a2de96b2",
-      "hash_meta": "1397a4612e10b281978fe00738c16f85ac5b45a97f2433cf663fe46becec0da4",
-      "seqno": 16133596
+      "ctime": 1596318207,
+      "hash": "3eefd37f9bf5ae274c6f86c4195dcdc02bef30647c4856273df1eae2b33e3b8ee7cc8f048b1421d59c5c526145debdd448a71c7bf2c74d0855ee61518544b7ed",
+      "hash_meta": "1581712b617fd000ba23c71073c0da42712cf882a64028cba56728752d57273b",
+      "seqno": 17153254
     },
     "service": {
-      "entropy": "vgfiviOaYUSAckf4nf/zPeds",
+      "entropy": "DXQShgX7cb0aEms78NtZmGgS",
       "hostname": "salifm.com",
       "protocol": "https:"
     },
@@ -35,18 +35,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.4.2"
+    "version": "5.5.1"
   },
-  "ctime": 1588437685,
+  "ctime": 1596318242,
   "expire_in": 504576000,
-  "prev": "ca40a90d471036d5a979df7f55d9a13dff8dc036a6ab234aff5affb4e2ef0beb",
-  "seqno": 12,
+  "prev": "2244f1721ab3009594fc866324b1cba10e42a967d4d0938be7af0ad8b1e801f0",
+  "seqno": 28,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfy5TW0ZoNepEr8AjUsgNukOLBMbGmRpSvrrIXvzblWAKp3BheWxvYWTESpcCDMQgykCpDUcQNtWped9/VdmhPf+NwDamqyNK/1r/tOLvC+vEIIVPkxFG9r8aDzmFJRo41+ai0dhpj4cfUUoc/tSD8dnwAgHCo3NpZ8RAV1Z31OQ1zUmNf2JjJEoUIahD5CggMPIZW9XAja5uy2Zkz/L0nxpQq3n0wzKAUMdnuFntnRSerGXClQjCeiucAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAPAADAmE7VYn94faJhojicbHr9G1SbrWl1fgSPD7djEo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnQYlZtaEOzuaAS53AkW1PYtQXPGjJA3hc/xGw2XGPooKp3BheWxvYWTESpcCHMQgIkTxchqzAJWU/IZjJLHLoQ5CqWfU0JOL568K2LHoAfDEILfIQ3TTKRsMdNUfLXWZyPAYcWsp+/mmojjNoJOVssUeAgHCo3NpZ8RAgUf29bULWgoh0B4Ys2aTOqlp5owcWmATZpUxxJYRA0XkFkeDkjIB5rLTDLDv/S/Di1fYOIqgrqwzdk508u2PDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOBmyqhjDZ4wflWjsulhyBefn0RLRldMnsD2Q7PfzhGpo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
