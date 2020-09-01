@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: salifm.github.io
+Token: d1130124eabdb3f2368362770881de84ed6522cd826dad83226245df4b83ad22
