@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: salifm.com
-Token: a74aa8c8ebb3136523fc65496062ebb38597560ef85a838435885327c39874e6

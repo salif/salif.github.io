@@ -2,6 +2,6 @@
 # Created in the distant future (the year 2000) after
 # the robotic uprising of the mid 90's which wiped out all humans.
 
-Sitemap: https://salifm.com/sitemap.txt
+Sitemap: https://salifm.github.io/sitemap.txt
 User-agent: *
 Disallow:
