@@ -1,8 +1,8 @@
 https://salifm.github.io
-https://salifm.github.io/salifm
-https://salifm.github.io/salifm/profiles
-https://salifm.github.io/salifm/projects
-https://salifm.github.io/salifm/sponsor-me
+https://salifm.github.io/profiles
+https://salifm.github.io/projects
+https://salifm.github.io/sponsor-me
+https://salifm.github.io/anepokis
 https://salifm.github.io/anepokis-license
 https://salifm.github.io/hasher
 https://salifm.github.io/dotfiles
