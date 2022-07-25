@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8" />
-	<meta http-equiv="refresh" content="0; url=https://salif.eu" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<title>Redirecting to salif.eu</title>
+	<title>Go to salif.eu</title>
 	<link rel="canonical" href="https://salif.github.io" />
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
-<body>
-	Redirecting to <a href="https://salif.eu">salif.eu</a>
+
+<body> <strong>Go to</strong> <a href="https://salif.eu">salif.eu</a>
+	<div id="orlist"></div>
+	<script>
+		window.onload = function () {
+			fetch('./sitemap.txt')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById("orlist").innerHTML = '<br /><strong>Or:</strong><br />' + data.split('\n').map(e => '<a href="' + e + '">' + e + '</a>').join('<br />')
+				})
+		}
+	</script>
 </body>
+
 </html>
