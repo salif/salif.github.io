@@ -18,6 +18,13 @@
 				.then(data => {
 					document.getElementById("orlist").innerHTML = '<br /><strong>Or:</strong><br />' + data.split('\n').map(e => '<a href="' + e + '">' + e + '</a>').join('<br />')
 				})
+				if(!navigator.doNotTrack) {
+					(function(m_d, m_w, m_u, m_n, m_cn, m_cc, m_s, m_f){
+					m_w[m_n]=m_w[m_n]||function(){(m_w[m_n].q=m_w[m_n].q||[]).push(arguments)};
+					m_s=m_d.createElement('script'), m_f=m_d.getElementsByTagName('script')[0];
+					m_s.async=1; m_s.src=m_u; m_s.setAttribute(m_cn, m_cc);m_f.parentNode.insertBefore(m_s,m_f);
+					})(document, window, '//beampipe.io/js/tracker.js', 'myweban', 'data-beampipe-domain', 'salif.github.io');
+				}
 		}
 	</script>
 </body>
