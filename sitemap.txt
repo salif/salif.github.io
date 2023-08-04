@@ -1,12 +1,12 @@
-https://salif.github.io/anepokis-license/
 https://salif.github.io/hasher/
 https://salif.github.io/dotfiles/
 https://salif.github.io/colemak-bg/
 https://salif.github.io/colemak-tr/
 https://salif.github.io/colemak-eo/
-https://salif.github.io/maze/
-https://salif.github.io/projstats/
 https://salif.github.io/shaw_eo/
+https://salif.github.io/maze/
+https://salif.github.io/sinhrz/
+https://salif.github.io/projstats/
 https://salif.github.io/Tetris/
 https://salif.github.io/alfabetoj/
 https://salif.github.io/morse-code-enc-dec/
