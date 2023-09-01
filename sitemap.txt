@@ -9,5 +9,6 @@ https://salif.github.io/sinhrz/
 https://salif.github.io/projstats/
 https://salif.github.io/arch-pkgs/
 https://salif.github.io/Tetris/
+https://salif.github.io/thumb-key/
 https://salif.github.io/alfabetoj/
 https://salif.github.io/morse-code-enc-dec/
