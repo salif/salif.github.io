@@ -1,7 +1,7 @@
-# robots.txt file
-# Created in the distant future (the year 2000) after
-# the robotic uprising of the mid 90's which wiped out all humans.
-
 Sitemap: https://salif.github.io/sitemap.txt
-User-agent: *
-Disallow:
+Sitemap: https://salif.github.io/colemak-bg/sitemap.xml
+Sitemap: https://salif.github.io/colemak-eo/sitemap.xml
+Sitemap: https://salif.github.io/colemak-tr/sitemap.xml
+Sitemap: https://salif.github.io/colemak-ru/sitemap.xml
+Sitemap: https://salif.github.io/shaw_eo/sitemap.xml
+Sitemap: https://salif.github.io/dotfiles/sitemap.xml
