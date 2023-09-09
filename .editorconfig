@@ -12,6 +12,9 @@ max_line_length = 120
 [*.html]
 max_line_length = 256
 
+[sitemap.txt]
+insert_final_newline = false
+
 [*.md]
 trim_trailing_whitespace = false
 max_line_length = 80

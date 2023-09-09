@@ -11,16 +11,10 @@
 
 <body>
 	<strong>Go to</strong> <a href="https://salif.eu">salif.eu</a>
-	<div id="orlist"></div>
-	<script>
-		window.onload = function () {
-			fetch('./sitemap.txt')
-				.then(response => response.text())
-				.then(data => {
-					document.getElementById("orlist").innerHTML = '<br /><strong>Or:</strong><br />' + data.split('\n').map(e => '<a href="' + e + '">' + e + '</a>').join('<br />')
-				})
-		}
-	</script>
+	<div>
+		<br /><strong>Or:</strong><br />
+		{{ content }}
+	</div>
 	<script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 
