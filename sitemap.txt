@@ -1,4 +1,4 @@
 ---
 ---
-{% for u in site.data.urls %}{{ u }}
+{% for u in site.data.urls %}https://salif.github.io/{{ u }}
 {% endfor %}
