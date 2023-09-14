@@ -10,29 +10,22 @@
 </head>
 
 <body>
-	<ul>
-		<li><a href="https://salif.eu/projects">salif.eu/projects</a></li>
-	</ul>
-	<br />
-	{{ content }}
-	<br />
+	<div class="main">
+		<a href="https://salif.eu/projects">salif.eu/projects</a>
+		<br />
+		{{ content }}
+		<br />
+	</div>
 	<style>
-		body {
-			font-family: monospace;
-		}
-
-		ul {
+		.main {
+			padding-top: 1rem;
 			padding-left: 1rem;
 			font-size: 1.1rem;
-			list-style-type: none;
 		}
 
-		li {
-			padding-left: 0.2rem;
-			padding-top: 0.2rem;
-			margin: 0.2rem;
+		.main a {
+			line-height: 1.6;
 		}
-
 	</style>
 	<script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
