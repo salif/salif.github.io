@@ -1,7 +1,10 @@
+User-agent: *
+Allow: /
+
 Sitemap: https://salif.github.io/sitemap.txt
 Sitemap: https://salif.github.io/colemak-bg/sitemap.xml
 Sitemap: https://salif.github.io/colemak-eo/sitemap.xml
 Sitemap: https://salif.github.io/colemak-tr/sitemap.xml
 Sitemap: https://salif.github.io/colemak-ru/sitemap.xml
 Sitemap: https://salif.github.io/shaw_eo/sitemap.xml
-Sitemap: https://salif.github.io/dotfiles/sitemap.xml
+Sitemap: https://salif.github.io/tok_bul_dictionary/sitemap.xml
