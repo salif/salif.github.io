@@ -7,4 +7,4 @@ Sitemap: https://salif.github.io/colemak-eo/sitemap.xml
 Sitemap: https://salif.github.io/colemak-tr/sitemap.xml
 Sitemap: https://salif.github.io/colemak-ru/sitemap.xml
 Sitemap: https://salif.github.io/shaw_eo/sitemap.xml
-Sitemap: https://salif.github.io/tok_bul_dictionary/sitemap.xml
+Sitemap: https://salif.github.io/tok-bul-dict/sitemap.xml
