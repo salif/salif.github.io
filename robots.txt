@@ -6,7 +6,7 @@ Sitemap: https://salif.github.io/colemak-bg/sitemap.xml
 Sitemap: https://salif.github.io/colemak-eo/sitemap.xml
 Sitemap: https://salif.github.io/colemak-tr/sitemap.xml
 Sitemap: https://salif.github.io/colemak-ru/sitemap.xml
-Sitemap: https://salif.github.io/shaw_eo/sitemap.xml
+Sitemap: https://salif.github.io/shaw-eo/sitemap.xml
 Sitemap: https://salif.github.io/tok-bul-dict/sitemap.xml
 Sitemap: https://salif.github.io/globasa-xwexi-pages/sitemap.xml
 Sitemap: https://salif.github.io/gramati-fe-globasa/sitemap.xml
