@@ -1,1 +1,27 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="ie=edge" /><title>Error: Page not found!</title></head><body><h1>Error: Page not found!</h1><p>Go to the <a href="https://salif.github.io/">home page</a></p><script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Error: Page not found!</title>
+</head>
+
+<body>
+	<h1>Error: Page not found!</h1>
+	<p>Go to the <a href="https://salif.github.io/">home page</a></p>
+	<script>
+		window.onload = function () {
+			const pathname = window.location.pathname;
+			if (pathname.startsWith("/colemak-ru")) {
+				window.location.href = "https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941";
+			} else if (pathname.startsWith("/shaw_eo")) {
+				window.location.href = window.location.href.replace("shaw_eo", "shaw-eo");
+			}
+		};
+	</script>
+	<script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+
+</html>
