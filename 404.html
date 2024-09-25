@@ -11,17 +11,17 @@
 <body>
 	<h1>Error: Page not found!</h1>
 	<p>Go to the <a href="https://salif.github.io/">home page</a></p>
+	<script data-goatcounter="https://sgi.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
 	<script>
-		window.onload = function () {
-			const pathname = window.location.pathname;
-			if (pathname.startsWith("/colemak-ru")) {
-				window.location.href = "https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941";
-			} else if (pathname.startsWith("/shaw_eo")) {
-				window.location.href = window.location.href.replace("shaw_eo", "shaw-eo");
-			}
-		};
+		const pathname = window.location.pathname;
+		if (pathname.startsWith("/colemak-ru")) {
+			window.location.href = "https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941";
+		} else if (pathname.startsWith("/shaw_eo")) {
+			window.location.href = window.location.href.replace("shaw_eo", "shaw-eo");
+		} else if (pathname.startsWith("/arch-pkgs")) {
+			window.location.href = "https://salif.github.io/dotfiles/pkgbuilds/";
+		}
 	</script>
-	<script data-goatcounter="https://sgi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 
 </html>
