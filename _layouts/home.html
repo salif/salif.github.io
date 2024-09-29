@@ -8,7 +8,8 @@
 	<meta name="description" content="List of projects hosted on salif.github.io" />
 	<link rel="canonical" href="https://salif.github.io" />
 	<link rel="icon" href="https://salif.github.io/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="https://salif.github.io/globasa-xwexi-pages/assets/custom.css" />
+	<style>:root {color-scheme: light dark;}</style>
+	<link rel="stylesheet" href="https://salif.github.io/globasa-xwexi-pages/assets/custom.css?v=240928" />
 </head>
 
 <body class="theme-color-links">
@@ -28,11 +29,49 @@
 		.main a {
 			line-height: 1.6;
 		}
-		#theme-switch-auto {
-			display: none;
-		}
 	</style>
-	<input id="theme-switch-auto" type="radio" name="theme-switch" checked="checked">
+	Theme: <input id="theme-switch-auto" type="radio" name="theme-switch" checked="checked">
+	<label for="theme-switch-auto">Auto</label>
+	<input id="theme-switch-dark" type="radio" name="theme-switch">
+	<label for="theme-switch-dark">Dark</label>
+	<input id="theme-switch-light" type="radio" name="theme-switch">
+	<label for="theme-switch-light">Light</label>
+	<input id="theme-switch-sc-dark" type="radio" name="theme-switch">
+	<label for="theme-switch-sc-dark">Dark SC</label>
+	<input id="theme-switch-sc-light" type="radio" name="theme-switch">
+	<label for="theme-switch-sc-light">Light SC</label>
+	<style>
+		/* beautify ignore:start */
+		input[name="theme-switch"],
+		input[name="theme-switch"]+label {
+			display: none;}
+		input[name="theme-switch"]+label {
+			user-select: none; cursor: pointer;}
+		input[name="theme-switch"]:checked,
+		input[name="theme-switch"]:checked+label {
+			display: unset;}
+		body:has(#theme-switch-auto:checked) {
+			#theme-switch-dark,#theme-switch-dark+label {display: unset;}}
+		body:has(#theme-switch-dark:checked) {
+			#theme-switch-light,#theme-switch-light+label {display: unset;}}
+		body:has(#theme-switch-light:checked) {
+			#theme-switch-sc-dark,#theme-switch-sc-dark+label {display: unset;}}
+		body:has(#theme-switch-sc-dark:checked) {
+			#theme-switch-sc-light,#theme-switch-sc-light+label {display: unset;}}
+		body:has(#theme-switch-sc-light:checked) {
+			#theme-switch-auto,#theme-switch-auto+label {display: unset;}}
+		/* beautify ignore:end */
+	</style>
+	<script>
+		window.addEventListener("load", function () {
+			if (window.location.hostname === "salif.github.io") {
+				(function (c_, o_, u_, n_, t_, e_, r_) {
+					e_ = c_.createElement('script'), r_ = c_.getElementsByTagName(o_)[0]; e_.async = 1;
+					e_.setAttribute(n_, t_); e_.src = u_; r_.parentNode.insertBefore(e_, r_);
+				})(document, 'script', 'https://gc.zgo.at/count.js', 'data-goatcounter', 'https://sgi.goatcounter.com/count');
+			}
+		})
+	</script>
 </body>
 
 </html>
