@@ -9,3 +9,4 @@ Sitemap: https://salif.github.io/globasa-xwexi-pages/sitemap.xml
 Sitemap: https://salif.github.io/gramati-fe-globasa/sitemap.xml
 Sitemap: https://salif.github.io/shaw-eo/sitemap.xml
 Sitemap: https://salif.github.io/tok-bul-dict/sitemap.xml
+Sitemap: https://salif.github.io/linkita/sitemap.xml
