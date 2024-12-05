@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /zola-themes-collection/demo/
 
 Sitemap: https://salif.github.io/sitemap.txt
 Sitemap: https://salif.github.io/colemak-bg/sitemap.xml
