@@ -1,6 +1,9 @@
 User-agent: *
 Disallow: /zola-themes-collection/demo/
 
+User-agent: Grok
+Disallow: /
+
 Sitemap: https://salif.github.io/sitemap.txt
 Sitemap: https://salif.github.io/colemak-bg/sitemap.xml
 Sitemap: https://salif.github.io/colemak-eo/sitemap.xml
